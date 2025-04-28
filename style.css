@@ -1,8 +1,114 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset default margin/padding */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
-  color: #333;
+  box-sizing: border-box;
+}
+
+/* Overall page styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #121212; /* true dark background */
+  color: #e0e0e0; /* soft white text */
   text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f1f !important;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  color: #bbbbbb !important;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important; /* gold on hover */
+}
+
+/* Hero Section */
+section .container .p-5 {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff !important;
+}
+
+
+p {
+  color: #cccccc;
+}
+
+.btn-primary {
+  background-color: #ff5722;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19;
+}
+
+.btn-outline-secondary {
+  border-color: #bbbbbb;
+  color: #bbbbbb;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #bbbbbb;
+  color: #121212;
+}
+
+/* Blog Post Cards */
+.blog-post, .border, .rounded, .shadow-sm {
+  background-color: #1f1f1f !important;
+  border: 1px solid #2c2c2c;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  padding: 2rem 0;
+}
+
+footer a, footer p {
+  color: #bbbbbb !important;
+}
+
+footer a:hover {
+  color: #ffd700 !important;
+}
+
+/* Additional Tweaks */
+.container {
+  max-width: 1200px;
+}
+
+button:focus, input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ff5722;
+}
+
+hr {
+  border-color: #444;
+}
+
+blockquote {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-left: 4px solid #ff5722;
 }
